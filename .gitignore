@@ -1,0 +1,5 @@
+# env varibles
+.env
+
+# webscraper
+scrape_stock_price.py
