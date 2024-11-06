@@ -9,7 +9,7 @@
 
 
 
-<img href="images/telegram_chat.png"/>
+<img src="images/telegram_chat.png"/><br>
 - Applied webscraping packages to get stock price based on user input in Telegram.
 - Used Python-Telegram-Bot to show automated responses with handlers like Conversation, Command, Message.
 - Create automated messages that are timed to send through JobQueue.
