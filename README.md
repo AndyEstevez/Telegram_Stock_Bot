@@ -1,6 +1,15 @@
-### Telegram Stock Bot
+# Telegram Stock Bot
+
+### Packages
+
+- <a href="https://python-telegram-bot.org/">Python-Telegram-Bot</a>
+- <a href="https://pypi.org/project/beautifulsoup4/">Beautiful Soup</a>
+- <a href="https://pypi.org/project/selenium/">Selenium</a>
+- <a href="https://pypi.org/project/python-dotenv/">Dotenv</a><br>
 
 
-- Add track command: user sends what stock they want to track (take name of stock, and add to list)
-- Add frequency command: user sends how often they want a message for the current price, (take number input)
-- Add send message based on frequency (send message from list, ex: [{name: "Apple", frequency: 3600 }, {name: "NVIDIA", frequency: 1800}])
+
+<img href="images/telegram_chat.png"/>
+- Applied webscraping packages to get stock price based on user input in Telegram.
+- Used Python-Telegram-Bot to show automated responses with handlers like Conversation, Command, Message.
+- Create automated messages that are timed to send through JobQueue.
